@@ -1,0 +1,77 @@
+{
+  "coeffs": [
+    [
+      -0.5932697401503432,
+      0.11249448442578823,
+      -0.3024454683276028,
+      -0.24482940805964723,
+      -0.5932697401503432,
+      -0.6750960553428498,
+      -0.5780159725294663,
+      -0.8242405634026289,
+      -1.178992940941394,
+      -0.9524389336002282,
+      -3.469843985197739,
+      -0.4134255612889748,
+      -0.7668064822647599,
+      -0.6598046214512734,
+      -0.5004802511985205,
+      -0.5950230932677284,
+      -0.4680211859502573,
+      -0.07531121857123742,
+      -0.6657785485777924,
+      -0.24102994705894057,
+      -1.4426477089146523,
+      -0.8489296868127587,
+      -0.5796487597430399,
+      1.091104285081212,
+      -1.414990524553397,
+      -0.8242405634026289,
+      -0.9820370178467279,
+      -0.6657785485777924,
+      -0.9532401955063217,
+      1.840344454160572,
+      -0.1714811735480236,
+      -1.0347056445614415,
+      -0.004992870262781615
+    ]
+  ],
+  "config": {
+    "data_augmentation_config": {
+      "add_builtin_entities_examples": false,
+      "max_unknown_words": null,
+      "min_utterances": 20,
+      "noise_factor": 5,
+      "unknown_word_prob": 0.0,
+      "unknown_words_replacement_string": null
+    },
+    "featurizer_config": {
+      "added_cooccurrence_feature_ratio": 0.0,
+      "cooccurrence_vectorizer_config": {
+        "filter_stop_words": true,
+        "keep_order": true,
+        "unit_name": "cooccurrence_vectorizer",
+        "unknown_words_replacement_string": null,
+        "window_size": null
+      },
+      "pvalue_threshold": 0.4,
+      "tfidf_vectorizer_config": {
+        "unit_name": "tfidf_vectorizer",
+        "use_stemming": false,
+        "word_clusters_name": null
+      },
+      "unit_name": "featurizer"
+    },
+    "noise_reweight_factor": 1,
+    "unit_name": "log_reg_intent_classifier"
+  },
+  "featurizer": "featurizer",
+  "intent_list": [
+    "prepareBeverage",
+    null
+  ],
+  "intercept": [
+    0.5660196374535132
+  ],
+  "t_": 3001.0
+}
